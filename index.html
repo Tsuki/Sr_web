@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./sr-core.min.js"></script>
+    <script src="./main.js"></script>
+    <style>
+        canvas {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="file" accept="image/*" onchange="loadFile(event)">
+    <button onclick="process()">process</button>
+</div>
+<span><img id="input" alt src="./FB_IMG_1561027224816.jpg"/></span>
+<span id="output2"><canvas id="outImg2"></canvas></span>
+</body>
+</html>
